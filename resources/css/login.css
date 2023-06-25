@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+nav h2{
+    color: white;
+}
+
+nav div{
+    display: flex;
+    gap: 20px;
+}
+nav div a {
+  text-decoration: none;
+  color: white;
+  gap: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main form h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+main form p{
+    color: rgb(146, 144, 144);
+    margin-bottom: 20px;
+}
+
+main form input{
+    border: none;
+    border-bottom: 1px solid rgb(216, 88, 150) ;
+}
+
+main form input:focus{
+    outline: none;
+}
+
+main form label{
+    font-weight: bold;
+}
+
+main form button{
+    border: none;
+    background-color: rgb(216, 88, 150);
+    color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#Checkbox{
+    margin-bottom: 40px;
+}
+
+#CheckboxLabel{
+    font-weight: 300;
+}
